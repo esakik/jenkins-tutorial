@@ -1,0 +1,24 @@
+{
+  "name": "jenkins-tutorial",
+  "version": "1.0.0",
+  "description": "## SetUp ```bash # start containers $ docker-compose up --build -d",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esakik/jenkins-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esakik/jenkins-tutorial/issues"
+  },
+  "homepage": "https://github.com/esakik/jenkins-tutorial#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
